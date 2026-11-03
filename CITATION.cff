@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research candidate by its DOI."
+title: "Equal mean diversity, unequal risk: an exact comparison of partial and bundled cultural transmission"
+type: software
+authors:
+  - name: Anonymous
+version: 0.1.0-candidate
+doi: 10.5281/zenodo.23933211
+date-released: 2026-11-03
+repository-code: "https://github.com/ipitchford/bundled-cultural-transmission-risk"
+url: "https://evidencepress.org/releases/bundled-cultural-transmission-risk/"
+license:
+  - CC0-1.0
+  - MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23933211
+    description: "Version DOI (0.1.0-candidate)"
+  - type: doi
+    value: 10.5281/zenodo.23933210
+    description: "Concept DOI (all versions)"
+keywords:
+  - cultural evolution
+  - cultural transmission
+  - convex order
+  - Poisson marking
+  - popularity spectrum
+  - cultural loss
+abstract: "In the continuous-time model of cultural trait accumulation of Wakano, Ohtsuki, Kobayashi and Baake (2026), each trait is copied at an encounter with probability b and encounters occur 1/b times as often, so the per-trait transmission rate is fixed. The expected number of traits, and the expected number held by exactly k individuals, do not depend on b, but every such count increases in convex order with b: variance, expected shortfall below any target and the probability of an empty repertoire all rise with bundling. Strictness is characterised exactly; the ordering extends to bundled forgetting and, with Poisson innovation, to the discrete-generation Versions 2, 1 and 3 of Wakano and Aoki (2024). Above the critical learning rate the effect is large. Neutral model, no empirical data. Unrefereed candidate; internal AI-assisted review only. Text CC0-1.0; code MIT."

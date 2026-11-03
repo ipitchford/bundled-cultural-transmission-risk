@@ -1,0 +1,45 @@
+# SPDX-License-Identifier: MIT
+name: Replay
+on:
+  push:
+  pull_request:
+jobs:
+  checks:
+    name: Manifest and exact checks (normal and -O)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OMP_NUM_THREADS: "1"
+      OPENBLAS_NUM_THREADS: "1"
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check MANIFEST.sha256
+        run: sha256sum -c MANIFEST.sha256
+      - name: Install pinned packages
+        run: python -m pip install -r code/requirements.txt sympy==1.14.0
+      - name: Exact checks (normal)
+        run: |
+          python -I -B code/run_checks.py --reuse-forward results/verification.json --out "$RUNNER_TEMP/n/checks"
+          python -I -B agent_math/pair_ancestry.py --out "$RUNNER_TEMP/n/pair"
+          python -I -B code/forward_closure_check.py --out "$RUNNER_TEMP/n/fc"
+          python -I -B code/partial_forgetting_check.py --out "$RUNNER_TEMP/n/pf"
+          python -I -B code/compute_illustrations.py --out "$RUNNER_TEMP/n/illus"
+          python -I -B code/discrete/exact_versions.py 3 2 4/5 1/2
+          python -I -B code/discrete/ya_chain.py 150 2 1/2 1 10
+          python -I -B code/discrete/bernoulli_counterexample.py
+      - name: Exact checks (-O)
+        run: |
+          python -O -I -B code/run_checks.py --reuse-forward results/verification.json --out "$RUNNER_TEMP/o/checks"
+          python -O -I -B agent_math/pair_ancestry.py --out "$RUNNER_TEMP/o/pair"
+          python -O -I -B code/forward_closure_check.py --out "$RUNNER_TEMP/o/fc"
+          python -O -I -B code/partial_forgetting_check.py --out "$RUNNER_TEMP/o/pf"
+          python -O -I -B code/compute_illustrations.py --out "$RUNNER_TEMP/o/illus"
+          python -O -I -B code/discrete/exact_versions.py 3 2 4/5 1/2
+          python -O -I -B code/discrete/ya_chain.py 150 2 1/2 1 10
+          python -O -I -B code/discrete/bernoulli_counterexample.py
+      - name: Working tree unchanged
+        run: test -z "$(git status --porcelain)"

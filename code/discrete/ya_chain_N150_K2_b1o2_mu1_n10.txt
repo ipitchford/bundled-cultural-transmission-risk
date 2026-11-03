@@ -1,0 +1,5 @@
+N=150 K=2 beta=0.5 mu=1.0 sample n=10 (stationary)
+E C (all versions)      = 327.022925
+Var C, Version 2        = 327.022925   (SD 18.084)
+Var C, Version 3        = 99619.927773   (SD 315.626)
+P(C=0): V2 = 9.456890e-143, V3 = 4.175209e-10

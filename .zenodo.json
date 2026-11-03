@@ -1,0 +1,164 @@
+{
+  "title": "Equal mean diversity, unequal risk: an exact comparison of partial and bundled cultural transmission",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p><strong>Unrefereed research candidate.</strong> People can learn many things in a single encounter, or pick them up piece by piece. This paper asks whether that matters when the rate at which each individual cultural trait is passed on is held fixed, in the continuous-time model of cultural trait accumulation of Wakano, Ohtsuki, Kobayashi and Baake (2026): at each encounter every trait is copied independently with probability b, and encounters happen 1/b times as often.</p><p><strong>Result.</strong> Averages do not change: the expected number of traits, and the expected number known to exactly k individuals, are the same for every b. But every such count becomes more variable across possible histories as bundling increases (it increases in convex order), so the variance, the expected shortfall below any target and the probability of losing every trait all rise with bundling. The increase is strict exactly when some inventing site has a directed chain of learning links into the group counted. The same ordering holds for bundled forgetting and, with Poisson innovation, for the discrete-generation Versions 2, 1 and 3 of Wakano and Aoki (PNAS 2024), answering their open distributional question in that setting. Below the critical learning rate the effect is modest (the variance ratio stays above about 0.75); above it the effect is large: at the source simulations' setting (N = 100, beta = 1.3), copying 93% of traits per encounter leaves only a third of the whole-repertoire variance. Threshold probabilities P(C &le; q) are not ordered in general.</p><p>The archive contains the paper (PDF and pandoc Markdown source), the code (exact rational checks, independent backward and forward moment closures, simulations, discrete-generation exact chains and the scaling study), machine-readable results, figures and working notes. Credits: Baumdicker and Pfaffelhuber (2014, Remark 2.4) for the first-moment/second-moment observation in gene transfer; Poisson marking, conditional Jensen and the Cox-process convex ordering of B&#322;aszczyszyn and Yogeshwaran (2009) are standard tools. Limits: a neutral idealised model with no empirical data; identifying bundling needs replicated populations and assumes whole-site deaths; the full text of Kobayashi et al. (2018) was not obtained. Assurance: written proofs, not machine-verified; computations are finite checks; internal AI-assisted review only (not human peer review, independent reproduction or formal verification). Creator: Anonymous. Text CC0-1.0; code MIT.</p>",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-zero",
+  "version": "0.1.0-candidate",
+  "publication_date": "2026-11-03",
+  "keywords": [
+    "cultural evolution",
+    "cultural transmission",
+    "convex order",
+    "Poisson marking",
+    "Cox process",
+    "cultural trait accumulation",
+    "popularity spectrum",
+    "cultural loss"
+  ],
+  "notes": "Code (the files in code/ and agent_math/ and the CI workflow) is MIT; prose, manuscript, figures and data are CC0-1.0.",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ipitchford/bundled-cultural-transmission-risk/tree/v0.1.0-candidate",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://evidencepress.org/releases/bundled-cultural-transmission-risk/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1016/j.tpb.2014.12.007",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1214/EJP.v19-2642",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1239/aap/1253281057",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/S0047-259X(03",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/s11134-026-09974-5",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1214/aoms/1177698701",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.2307/4128416",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/0040-5809(83",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.tpb.2021.01.002",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.tpb.2018.04.007",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1073/pnas.1520492112",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/s00440-010-0288-5",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/s00440-015-0643-7",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1098/rstb.2010.0313",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1038/nature04153",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.tpb.2019.10.003",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1017/CBO9780511810633",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1093/genetics/144.3.1247",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.tpb.2026.10.003",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1007/978-0-387-34675-5",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.tpb.2009.04.006",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1073/pnas.2322880121",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/j.tpb.2025.12.003",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1016/0040-5809(75",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1098/rspb.2019.1951",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ],
+  "doi": "10.5281/zenodo.23933211"
+}

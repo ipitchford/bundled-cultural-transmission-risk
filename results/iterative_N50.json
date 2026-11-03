@@ -1,0 +1,15 @@
+{
+  "N": 50,
+  "b": 0.5,
+  "mean": 39.1407649355459,
+  "variance": 177.97070970470537,
+  "residual": 2.261609334138694e-12,
+  "residual_infinity": 8.85211193235591e-08,
+  "max_single_absorption_mean": 33.02688567977139,
+  "variance_residual_error_bound": 2.9235768881445888e-08,
+  "bound_note": "M-matrix residual bound evaluated in ordinary floating point, not interval arithmetic.",
+  "full_copy_variance": 914.9506106127495,
+  "info": 0,
+  "iterations": 104,
+  "seconds": 0.12428426742553711
+}

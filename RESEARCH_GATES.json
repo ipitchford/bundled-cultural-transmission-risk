@@ -1,0 +1,237 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 3 November 2026 for release 0.1.0-candidate from development_notes/novelty_note.md (searches of 2 November 2026), the corpus and GitHub check of 3 November 2026 and the internal review record. It documents the scrutiny performed, not historical priority. No new search was run at release preparation.",
+ "contributionMap": [
+  {
+   "claim": "Theorem 2 and Corollaries 1-2: at matched per-trait rates, every carrier-pattern count increases in convex order with copying completeness b, with equal means; covariance of disjoint counts increases in the PSD order.",
+   "unit": "statement",
+   "paperLocation": "Abstract; Section 4.2",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines; Crossref; arXiv; publisher pages",
+     "query": "cultural transmission + correlated genealogies, partial transmission, variance, mixed Poisson, convex order, package transmission, Poisson thinning, information garbling; exact titles of the source papers (development_notes/novelty_note.md Section 6)"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "Evidence Press release feed (225 items) and earlier publication batches",
+     "query": "cultur|transmission|repertoire|trait|convex order|Poisson thinning|Wakano|Pfaffelhuber|horizontal gene|infinitely many genes|bundl|Cox process|genealog"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "GitHub issues and discussions (gh search, GraphQL)",
+     "query": "\"cultural transmission convex order\"; \"partial transmission cultural traits variance\"; \"Wakano cultural traits\"; \"infinitely many genes horizontal gene transfer variance\"; \"cultural repertoire Poisson bundled transmission\"; \"Wakano Aoki\"; \"convex order Poisson thinning\""
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "independent domain-review literature search (internal review round) and api.crossref.org",
+     "query": "genealogy, popularity spectrum, linkage/recombination variance, gene-transfer moments; Crossref records for every reference"
+    }
+   ],
+   "closestPriorWork": "Wakano et al. 2026 Section 4 (simulations only); Wakano and Aoki 2024 Sections 1.6.1-1.6.2 (remark without proof); Baumdicker and Pfaffelhuber 2014 Remark 2.4 (gene transfer, second moments)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Conditional Poisson representation, conditional Jensen and Cox-process lifting of convex order.",
+   "unit": "method",
+   "paperLocation": "Sections 3 and 4.2",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines; Crossref; arXiv; publisher pages",
+     "query": "cultural transmission + correlated genealogies, partial transmission, variance, mixed Poisson, convex order, package transmission, Poisson thinning, information garbling; exact titles of the source papers (development_notes/novelty_note.md Section 6)"
+    }
+   ],
+   "closestPriorWork": "Poisson marking theorem; Blaszczyszyn and Yogeshwaran 2009 Proposition 3.6; Dendoncker et al. 2026 Proposition 4.2",
+   "verdict": "known-cited"
+  },
+  {
+   "claim": "Proposition 1: exact strictness characterisation by directed paths from inventing sites.",
+   "unit": "statement",
+   "paperLocation": "Section 4.3; Appendix D",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines; Crossref; arXiv; publisher pages",
+     "query": "cultural transmission + correlated genealogies, partial transmission, variance, mixed Poisson, convex order, package transmission, Poisson thinning, information garbling; exact titles of the source papers (development_notes/novelty_note.md Section 6)"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "independent domain-review literature search (internal review round) and api.crossref.org",
+     "query": "genealogy, popularity spectrum, linkage/recombination variance, gene-transfer moments; Crossref records for every reference"
+    }
+   ],
+   "closestPriorWork": "None found",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Theorem 3: bundled forgetting, two-parameter ordering in (b, d).",
+   "unit": "statement",
+   "paperLocation": "Section 5",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines; Crossref; arXiv; publisher pages",
+     "query": "cultural transmission + correlated genealogies, partial transmission, variance, mixed Poisson, convex order, package transmission, Poisson thinning, information garbling; exact titles of the source papers (development_notes/novelty_note.md Section 6)"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "independent domain-review literature search (internal review round) and api.crossref.org",
+     "query": "genealogy, popularity spectrum, linkage/recombination variance, gene-transfer moments; Crossref records for every reference"
+    }
+   ],
+   "closestPriorWork": "Baumdicker and Pfaffelhuber 2014 Remark 2.4 (direction not formalised)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Theorem 4: Versions 2 <=cx 1 <=cx 3 of the Wakano-Aoki discrete model under Poisson innovation.",
+   "unit": "statement",
+   "paperLocation": "Section 6; Appendix E",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines; Crossref; arXiv; publisher pages",
+     "query": "cultural transmission + correlated genealogies, partial transmission, variance, mixed Poisson, convex order, package transmission, Poisson thinning, information garbling; exact titles of the source papers (development_notes/novelty_note.md Section 6)"
+    },
+    {
+     "date": "2026-11-03",
+     "corpus": "independent domain-review literature search (internal review round) and api.crossref.org",
+     "query": "genealogy, popularity spectrum, linkage/recombination variance, gene-transfer moments; Crossref records for every reference"
+    }
+   ],
+   "closestPriorWork": "Wakano and Aoki 2024 Section 1.6 (open question)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Corollary 3: complete-loss episode frequency and duration ordered in b.",
+   "unit": "statement",
+   "paperLocation": "Section 8",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines",
+     "query": "\"cultural transmission\" \"busy period\"; \"cultural traits\" \"bundling\" \"extinction\"; \"cultural evolution\" \"Poisson\" \"Mehler\"; \"cultural transmission\" \"empty\" \"renewal\" and related families (novelty_note.md Section 7.4)"
+    }
+   ],
+   "closestPriorWork": "Renewal-reward identities (Norris 1997); Daley et al. 2026 Section 3.2",
+   "verdict": "partially-known-cited"
+  },
+  {
+   "claim": "Exact pair-replica second-moment equations.",
+   "unit": "method",
+   "paperLocation": "Section 9",
+   "searches": [
+    {
+     "date": "2026-11-02",
+     "corpus": "two web search engines; Crossref; arXiv; publisher pages",
+     "query": "cultural transmission + correlated genealogies, partial transmission, variance, mixed Poisson, convex order, package transmission, Poisson thinning, information garbling; exact titles of the source papers (development_notes/novelty_note.md Section 6)"
+    }
+   ],
+   "closestPriorWork": "Baumdicker and Pfaffelhuber 2014 equations 6.6-6.11",
+   "verdict": "partially-known-cited"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "Wakano, Ohtsuki, Kobayashi and Baake (2026), Theor. Popul. Biol. 168, doi:10.1016/j.tpb.2025.12.003 (arXiv:2505.08677v2)",
+   "usedFor": "Model, equation (15), Section 4 b-comparison, Figure 16",
+   "readWhat": "Full text (arXiv v2 HTML)",
+   "date": "2026-11-02",
+   "evidenceLocator": "development_notes/novelty_note.md Section 1"
+  },
+  {
+   "citation": "Wakano and Aoki (2024), PNAS 121, e2322880121",
+   "usedFor": "Discrete Versions 1-3 and the open distributional question",
+   "readWhat": "Full text (PMC), Sections 1.3 and 1.6",
+   "date": "2026-11-02",
+   "evidenceLocator": "development_notes/novelty_note.md Section 2"
+  },
+  {
+   "citation": "Baumdicker and Pfaffelhuber (2014), Electron. J. Probab. 19, doi:10.1214/EJP.v19-2642 (arXiv:1301.6547v2)",
+   "usedFor": "Remark 2.4 and paired-genealogy variances",
+   "readWhat": "Full text",
+   "date": "2026-11-02",
+   "evidenceLocator": "development_notes/novelty_note.md Section 3.1"
+  },
+  {
+   "citation": "Blaszczyszyn and Yogeshwaran (2009), Adv. Appl. Probab. 41, doi:10.1239/aap/1253281057",
+   "usedFor": "Convex order lifting to Cox processes",
+   "readWhat": "Proposition 3.6 and its assumptions",
+   "date": "2026-11-02",
+   "evidenceLocator": "development_notes/novelty_note.md Section 3.2"
+  },
+  {
+   "citation": "Kobayashi, Kurokawa, Ishii and Wakano (2021), Theor. Popul. Biol. 137, doi:10.1016/j.tpb.2021.01.002",
+   "usedFor": "Single-trait extinction distinguished from complete loss",
+   "readWhat": "Section 2.1, equations (5)-(8), Section 4.1",
+   "date": "2026-11-02",
+   "evidenceLocator": "development_notes/novelty_note.md Section 7.3"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "Priority holds only within a bounded search; the full text of Kobayashi, Wakano and Ohtsuki (2018) was not obtained.",
+   "closingQuestion": "Has the convex ordering or the discrete-version ordering been proved elsewhere?",
+   "triedOrSearched": "Searches of 2-3 November 2026 (novelty_note.md Section 6; corpus and GitHub checks).",
+   "estimatedCost": "days",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "Exhaustive search, subscription full text and author enquiry out of scope; disclosed.",
+   "whyNotClosedNow": "Requires paywalled access or contact with the authors."
+  },
+  {
+   "limitation": "Neutral idealised model with no empirical data.",
+   "closingQuestion": "Can bundling be estimated from real populations?",
+   "triedOrSearched": "Corollary 4 shows identification needs replicated populations and whole-site resets.",
+   "estimatedCost": "months",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "Requires data and new modelling.",
+   "whyNotClosedNow": "Beyond this release."
+  },
+  {
+   "limitation": "Section 7 values are floating-point solutions of exact linear systems, not interval certificates.",
+   "closingQuestion": "Could the values be certified?",
+   "triedOrSearched": "Iterative refinement with double-double residuals, cross-checks with sparse LU and the b = 1 recursion.",
+   "estimatedCost": "days",
+   "decision": "OPEN",
+   "cheap": false,
+   "reasonOpen": "The theorems do not depend on these numbers.",
+   "whyNotClosedNow": "Not needed for any stated theorem."
+  },
+  {
+   "limitation": "Threshold probabilities P(C <= q) are not ordered.",
+   "closingQuestion": "Is this a gap in the proof or a real failure?",
+   "triedOrSearched": "Exact N = 2 stationary laws (code/exact_extras.py).",
+   "estimatedCost": "1 hour",
+   "decision": "CLOSED",
+   "cheap": true
+  },
+  {
+   "limitation": "Earlier verification scripts used assert and did not fail under -O (review objection).",
+   "closingQuestion": "Do the checks fail under -O?",
+   "triedOrSearched": "Explicit checks with exit status 1; all scripts replayed normally and with -O.",
+   "estimatedCost": "1 hour",
+   "decision": "CLOSED",
+   "cheap": true
+  }
+ ],
+ "extensionScout": {
+  "by": "Internal AI-assisted reviewers and the lead, 3 November 2026",
+  "date": "2026-11-03",
+  "proposals": [
+   "Order every carrier-pattern count, not only repertoires",
+   "Exact strictness criterion",
+   "Bundled forgetting",
+   "The discrete-generation versions of Wakano and Aoki",
+   "Quantify the effect at large N"
+  ],
+  "actions": [
+   "Theorem 2 for all families S and Corollary 2",
+   "Proposition 1 as an equivalence",
+   "Theorem 3",
+   "Theorem 4 and Appendix E",
+   "Section 7 scaling study and Figure 2"
+  ]
+ }
+}
